@@ -41,6 +41,8 @@ yarn
     └── .
 ├── pages                 # Folder for page or screen
     └── .
+├── types                 # Folder for types
+    └── .
 ├── utils                 # Tools and utilities
     └── .
 ├── .eslintrc.js          # Configuration file used for ESLint, tool for identifying and fixing problems and helps enforce coding styles
