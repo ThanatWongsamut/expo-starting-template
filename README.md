@@ -1,25 +1,48 @@
+# Expo starting template
+
 ## Table of Contents
 
-- [Kohya's GUI](#kohyas-gui)
+- [Expo starting template](#expo-starting-template)
   - [Table of Contents](#table-of-contents)
-- [Kohya's GUI](#kohyas-gui)
-- [Kohya's GUI](#kohyas-gui)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [What's included in this project](#whats-included-in-this-project)
+  - [Folder Structure](#folder-Structure)
+  - [Usage](#usage)
+    - [For All Platforms](#for-all-platforms)
+    - [For iOS](#for-ios)
+    - [For Android](#for-android)
 
 ## Requirements
 
-- node: 20.x
-- yarn: 11.x
+- node: 18.x
+- yarn: 1.22.x
 
 ## Installation
+
+```bash
+yarn
+```
+
+## What's included in this project
+
+- react-navigation
+- splash-screen
+- status-bar
+- lottie-react-native
 
 ## Folder Structure
 
 ```
 .
-├── assets                # Icon, Image, Font, etc.
-├── components            # Shared components
-├── pages                 # Page or Screen
+├── assets                # Folder for icon, image, font, etc.
+    └── .
+├── components            # Folder for shared components
+    └── .
+├── pages                 # Folder for page or screen
+    └── .
 ├── utils                 # Tools and utilities
+    └── .
 ├── .eslintrc.js          # Configuration file used for ESLint, tool for identifying and fixing problems and helps enforce coding styles
 ├── .gitignore            # Used in Git repositories to specify files and directories that should be ignored by Git
 ├── .prettierrc           # Configuration file used for Prettier, helps maintain a consistent coding style by automatically formatting code according to predefined rules
@@ -34,3 +57,22 @@
 ```
 
 ## Usage
+
+- ### For all platforms
+
+  ```bash
+  # You can select platform after starting
+  yarn start
+  ```
+
+- ### For iOS
+
+  ```bash
+  yarn ios
+  ```
+
+- ### For Android
+
+  ```bash
+  yarn android
+  ```
