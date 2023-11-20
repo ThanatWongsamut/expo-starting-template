@@ -16,7 +16,8 @@
 ## Requirements
 
 - [node](https://nodejs.org/en/download): 18.x or 20.x
-- [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): 1.22.x
+- [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): 1.22.x or later
+- [expo sdk](https://docs.expo.dev/get-started/installation/): SDK 49 (will be installed automatically)
 
 ## Installation
 
@@ -26,10 +27,10 @@ yarn
 
 ## What's included in this project
 
-- react-navigation
-- splash-screen
-- status-bar
-- lottie-react-native
+- [react-navigation-v6](https://reactnavigation.org/docs/navigating)
+- [splash-screen](https://docs.expo.dev/versions/latest/sdk/splash-screen/)
+- [status-bar](https://docs.expo.dev/versions/latest/sdk/status-bar/)
+- [lottie-react-native](https://docs.expo.dev/versions/latest/sdk/lottie/)
 
 ## Folder Structure
 
