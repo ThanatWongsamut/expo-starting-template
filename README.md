@@ -15,8 +15,8 @@
 
 ## Requirements
 
-- node: 18.x
-- yarn: 1.22.x
+- [node](https://nodejs.org/en/download): 18.x or 20.x
+- [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable): 1.22.x
 
 ## Installation
 
